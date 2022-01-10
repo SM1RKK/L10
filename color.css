@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+ /* body{
+     background-image: url(../pic/cactus.jpg);
+    background-size:cover; 
+    
+}  */
+
+body{
+    background-color: #323335;
+}
+/* .cactus{
+    height: 100%;
+    width: 100%;
+} */
+
+.bbb{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    height: 50px;
+    width: 150px;
+    line-height: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    color: violet;
+    transition: 1s;
+    transform-origin: center center;
+    transform: translate(-50%, -50%);
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.p1 a{
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.bbb:hover{
+    font-size: 40px;
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #81dae693;
+    border: 5px solid #fff;
+    transition: 1s;
+    color:deepskyblue;
+    /* transform: scale(2); */
+}
+
+.box{
+    width: 550px;
+    height: 500px;
+    position: relative;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.box img{
+    height: 105%;
+    width: 120%;
+    transition:  1s;
+    /* border-radius: 30px 30px 30px 30px; */
+    opacity: 0.8;
+    transform:translate(-50px,-10px);
+}
+
+.box:hover img{
+    opacity: 1;
+    transition:  1s;
+    transform:translate(0,0);
+}
+
+.box .title1{
+    font-size: 60px;
+    font-weight: bold;
+    color: gainsboro;
+    position: absolute;
+    bottom: -300px;
+    right: 10px;
+    transition: all 0.5s;
+    /* transition-delay: 0.5s; */
+}
+
+.box .title2{
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: -350px;
+    right: 10px;
+    transition: all 1s;
+}
+
+.box:hover .title1{
+    bottom: 10px;
+}
+
+.box:hover .title2{
+    bottom: 70px;
+}
+
+
+
